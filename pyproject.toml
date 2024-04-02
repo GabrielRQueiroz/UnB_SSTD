@@ -18,6 +18,9 @@ matplotlib = "^3.8.3"
 proj1 = "scripts:main"
 
 
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
